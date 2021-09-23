@@ -6,6 +6,7 @@ import Contact from'./component/contact/Contact';
 import About from'./component/about/About';
 import Error from'./component/error/Error';
 import Application from './ErrorBoundaries/Application';
+import Myapp from './codesplit/Myapp';
 
 const App=()=> {
   return (
@@ -17,6 +18,7 @@ const App=()=> {
     <Route component={Error} />
       </Switch>
       <Application/>
+      <Myapp/>
     </div>
   );
 }
